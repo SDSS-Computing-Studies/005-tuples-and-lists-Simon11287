@@ -22,6 +22,6 @@ Enter the replacement:Dan
 
 myTuple = ('Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick')
 tupleLength = len(myTuple)
-print( "myTuple contains " + str(tupleLength) + " elements")
 
-print(" tuple[1:2] is " + str(myTuple[1:2]))
+(" tuple[1:2] is " + str(myTuple[1:2]))
+print( myTuple[1] )
