@@ -25,3 +25,10 @@ The animal at that index is Dog
 
 
 animals =
+myList = ['Cat', 'Fish', 'Dog', 'Bear', 'Turtle']
+print(myList)
+myList.sort()
+print(myList)
+print("\n")
+dIndex = myList.index("Dog")
+print("Dog is found at index " + str(dIndex) + " using myList.index('Dog') ")
