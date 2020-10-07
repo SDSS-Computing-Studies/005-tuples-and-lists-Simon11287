@@ -24,11 +24,10 @@ The animal at that index is Dog
 
 
 
-animals =
-myList = ['Cat', 'Fish', 'Dog', 'Bear', 'Turtle']
-print(myList)
-myList.sort()
-print(myList)
+animals = ['Cat', 'Fish', 'Dog', 'Bear', 'Turtle']
+print(animals)
+animals.sort()
+print(animals)
 print("\n")
-dIndex = myList.index("Dog")
-print("Dog is found at index " + str(dIndex) + " using myList.index('Dog') ")
+dIndex = animals.index("Dog")
+print("Dog is found at index " + str(dIndex) + " using animals.index('Dog') ")
