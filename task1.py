@@ -18,7 +18,7 @@ outputs:
 string animal
 
 example:
-Enter the index for an animal:2
+Enter the index for an animal:2  
 The animal at that index is Dog
 """
 
