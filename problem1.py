@@ -19,9 +19,11 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+myList = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
+print(myList)
 
-myTuple = ('Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick')
-tupleLength = len(myTuple)
+myList.remove( input("enter a name from the list: "))
+print(myList)
 
-(" tuple[1:2] is " + str(myTuple[1:2]))
-print( myTuple[1] )
+myList.insert(0, input("enter a word to replace"))
+print(myList)
