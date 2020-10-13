@@ -24,4 +24,19 @@ Enter an integer:-1
 The largest number you entered is 92
 """
 
+myList = []
+entry = 0
+
+while entry != -1:
+    #input entry
+    entry = input("Enter a positive integer, -1 to finish:")
+    #convert entry from word to integer
+    entry  = int(entry)
+    #add entry to the list
+    myList.insert(0,entry)
+
+#sort list
+myList.sort()
+#dipslay list
+print(myList)
 
