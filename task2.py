@@ -32,7 +32,7 @@ while entry !=  1:
 
     entry = input("Enter a word: ")
     entry  = (entry)
-    myList.insert(0,entry)
+    myList.insert(entry)
     count = count + 1
     if count > 4:
         break
