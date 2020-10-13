@@ -24,17 +24,19 @@ Enter a word: virus
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
 
-['apple', 'worm', 'dollar', 'shingle', 'virus']
-"""
-myList = ['']
+myList = []
+entry = 0
+count = 0
+
+while entry !=  1:
+
+    entry = input("Enter a word: ")
+    entry  = (entry)
+    myList.insert(0,entry)
+    count = count + 1
+    if count > 4:
+        break
+
+myList.sort()
 print(myList)
-myList.insert(0, input("enter a word: "))
-print(myList)
-myList.insert(1, input("enter a word: "))
-print(myList)
-myList.insert(2, input("enter a word: "))
-print(myList)
-myList.insert(3, input("enter a word: "))
-print(myList)
-myList.insert(4, input("enter a word: "))
-print(myList)
+
