@@ -25,9 +25,14 @@ word not in list
 """
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
-myList = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
-fruit = input("enter a fruit: ")
-print(myList)
-myList.pop(3)
-print(myList)
+
+word=(input("Enter a fruit")).strip()
+if word in fruit:
+    for i in fruit:
+        if word==i:
+            fruit.remove(i)
+    print(fruit)
+elif word not in fruit:
+    fruit.append(word)
+    print(fruit)
 
